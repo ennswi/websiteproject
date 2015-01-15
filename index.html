@@ -13,20 +13,29 @@
 	<!--http://webdesign.tutsplus.com/tutorials/create-a-parallax-scrolling-website-using-stellarjs--webdesign-7307-->
 	<ul class="navigation">
 		<li data-slide="1">Welcome</li>
-		<li data-slide="2">Paralaxes scrolling?</li>
-		<li data-slide="3">Aufgabenstellung</li>
-		<li data-slide="4">Soll-Zustand</li>
+		<li data-slide="2">Aufgabenstellung</li>
+		<li data-slide="3">Soll-Zustand</li>
+		<li data-slide="4">Umsetzung</li>
 		<li data-slide="5">Ergebnis</li>
 		<li data-slide="6">Fazit</li>
-		<li data-slide="7">Impressum</li>
+		<li data-slide="7">Quellen</li>
 	</ul>
 
 
 	<img class="logo" src="images/parallax_scrolling_lrg.jpg">
 	
+	<>
 
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-		
+		<div class="wrapper">
+
+			<div class="welcomeMainDiv">
+				Präsentation Website Project<br/>
+				by Willy Enns und Samuel Teichrib
+			</div>
+
+		</div>
+
 		<div class="buttonList">
 			<a class="buttondown button" data-slide="2" title="Go to page 2"></a>
 			<a class="buttontop button" data-slide="7" title="Go to Last Page"></a>
@@ -36,7 +45,6 @@
 
 	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 		<div class="wrapper">
-
 			<img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="">
 			<img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="">
 			<img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
@@ -45,10 +53,9 @@
 			<img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="">
 			<img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
 			<img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt="">	
-
 		</div>
 
-		<span class="slideno">Paralaxes scrolling?</span>
+		<span class="slideno">Aufgabenstellung</span>
 				<div class="buttonList">
 			<a class="buttondown button" data-slide="3" title="Go to page 2"></a>
 			<a class="buttontop button" data-slide="1" title=""></a>
@@ -59,17 +66,29 @@
 
 	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 		<div class="wrapper">
-		
-			<img src="images/slide3/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"alt="">
-			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
-			<img src="images/slide3/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"alt="">
-			<img src="images/slide3/themeforest.png" data-stellar-ratio="3" data-stellar-vertical-offset="-200"alt="">
-			<img src="images/slide3/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200"alt="">
-			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"alt="">
+
+			<div class="info">
+				<ul>
+					<li>Es ist eine Website mit CSS und HTML erstellt.</li>
+					<li>Die Website kann als Präsentation genutzt werden und enthält die Punkte:<br/>
+						<ul>
+							<li>Einleitung</li>
+							<li>Aufgabenstellung</li>
+							<li>Sollzustand</li>
+							<li>Umsetzung</li>
+							<li>Fazit</li>
+						</ul>
+					</li>
+					<li>Die Seite sollen mithilfe der Technik Paralaxes scrolling erreichbar.</li>
+					<li>Über ein Menü sollen die Seiten erreichbar sein.</li>
+					<li>Es sollen VOR und ZURÜCK Buttons vorhanden sein.</li>
+				</ul>
+			</div>
+			
 		</div>
 
-		<span class="slideno">Aufgabenstellung</span>
-			<div class="buttonList">
+		<span class="slideno">Soll-Zustand</span>
+		<div class="buttonList">
 			<a class="buttondown button" data-slide="4" title="Go to page 2"></a>
 			<a class="buttontop button" data-slide="2" title=""></a>
 		</div>
@@ -80,23 +99,31 @@
 		<div class="wrapper">
 		
 			<img src="images/slide3/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"alt="">
-			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
+			<!--<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">-->
 			<img src="images/slide3/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/themeforest.png" data-stellar-ratio="3" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"alt="">
 			
 			<div class="info">
-				<ul>
-					<li>Paralaxes scrolling in der Projektsite einbauen</li>
-					<li>Paralaxes scrolling erklären</li>
-					<li></li>
-				</ul>
+					<ol>
+						<li>Entwicklungsumgebung --> c9.io (Online IDE)</li>
+					</ol>
+					</br>
+					<p>Ablauf:</p>
+					<ol>
+						<li>Besprechung des Themas.</li>
+						<li>Heranholen von Informationen.</li>
+						<li>Ausprobieren von Tutorials.</li>
+						<li>Entscheidung für ein Framework.</li>
+						<li>Beginn mit der Entwicklung.</li>
+						<li>Test</li>
+						<li>Beheben von Fehlern.</li>
+					</ol>
 			</div>
 		</div>
-
-		<span class="slideno">Soll-Zustand</span>
-			<div class="buttonList">
+	<span class="slideno">Umsetzung</span>
+		<div class="buttonList">
 			<a class="buttondown button" data-slide="5" title="Go to page 2"></a>
 			<a class="buttontop button" data-slide="3" title=""></a>
 		</div>
@@ -104,13 +131,28 @@
 
 	<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
 		<div class="wrapper">
-		
 			<img src="images/slide3/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"alt="">
-			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
+			<!--<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">-->
 			<img src="images/slide3/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/themeforest.png" data-stellar-ratio="3" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"alt="">
+			
+			<div class="info">
+				<ol>
+					<li>Es ist eine Website mit CSS und HTML erstellt.</li>
+					<li>Die Website kann als Präsentation genutzt werden.</li>
+					<li>Die Website enhält Paralaxes scrolling.</li>
+					<li>Ein Menu ist Vorhanden.</li>
+					<li>Navigation über vor und zurück Buttons ist möglich.</li>
+				</ol>
+				</br>
+				<p>Schwierigkeiten:</p>
+				<ol>
+					<li>Einarbeitung ins Framework.</li>
+					<li>Einhaltung von css definitionen innerhalb der HTML-Struktur.</li>
+				</ol>
+			</div>
 		</div>
 
 		<span class="slideno">Ergebnis</span>
@@ -123,17 +165,24 @@
 
 	<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
 		<div class="wrapper">
-			
 			<img src="images/slide3/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"alt="">
 			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
 			<img src="images/slide3/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/themeforest.png" data-stellar-ratio="3" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"alt="">
+			
+			<div class="info">
+				<ol>
+				<li>Paralaxes scrolling scheint eine gute und vervendbare darstellung von Informationen in Websiten zu sein.</li>
+				<li>Allerdings sollte man für Websiten die kein javascript beinhalten, eine Alternative finden.</li>
+				<li>Ebenfalls sollte man darauf achten, dass die Informationen auch bei deaktivierten javascript einsehbar sind.</li>
+				</ol>
+			</div>
 		</div>
 
 		<span class="slideno">Fazit</span>
-				<div class="buttonList">
+		<div class="buttonList">
 			<a class="buttondown button" data-slide="7" title="Go to page 2"></a>
 			<a class="buttontop button" data-slide="5" title=""></a>
 		</div>
@@ -141,15 +190,18 @@
 	
 	<div class="slide" id="slide7" data-slide="7" data-stellar-background-ratio="0.5">
 		<div class="wrapper">
-		
 			<img src="images/slide3/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"alt="">
 			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
 			<img src="images/slide3/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200"alt="">
 			<img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"alt="">
+			
+			<div class="info">
+
+			</div>
 		</div>
 
-		<span class="slideno">Impressum</span>
+		<span class="slideno">Quellen</span>
 		<div class="buttonList">
 			<a class="buttontop button" data-slide="6" title=""></a>
 			<a class="buttondown button" data-slide="1" title="Go to First Page"></a>
